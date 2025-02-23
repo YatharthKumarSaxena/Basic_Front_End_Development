@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.card{
+    position:absolute;
+    height: 300px;
+    width: 230px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#card1:hover{
+    z-index: 10;
+}
+#card2:hover{
+    z-index: 10;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card4:hover{
+    z-index: 10;
+}
+#card5:hover{
+    z-index: 10;
+}
+#card6:hover{
+    z-index: 10;
+}
+#card7:hover{
+    z-index: 10;
+}
+#card2{
+    rotate:-7deg;
+}
+#card3{
+    rotate:-14deg;
+}
+#card4{
+    rotate:-21deg;
+}
+#card5{
+    rotate:-28deg;
+}
+#card6{
+    rotate:-35deg;
+}
+#card7{
+    rotate:-42deg;
+}
+#card_2:hover{
+    z-index: 10;
+}
+#card_3:hover{
+    z-index: 10;
+}
+#card_4:hover{
+    z-index: 10;
+}
+#card_5:hover{
+    z-index: 10;
+}
+#card_6:hover{
+    z-index: 10;
+}
+#card_7:hover{
+    z-index: 10;
+}
+#card_2{
+    rotate:7deg;
+}
+#card_3{
+    rotate:14deg;
+}
+#card_4{
+    rotate:21deg;
+}
+#card_5{
+    rotate:28deg;
+}
+#card_6{
+    rotate:35deg;
+}
+#card_7{
+    rotate:42deg;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
